@@ -16,7 +16,7 @@ Eis o cronograma:
 <h1>🚩 Start</h1>
 
 <br>~~001 - Organizar o projeto e seu cronograma e esboçar o site~~
-<br>002 - Site: Estrutura básica(menu e seções) e carrossel 
+<br>~~002 - Site: Estrutura básica(menu e seções) e carrossel~~
 <br>003 - Site: Seção de cards
 <br>004 - Site: Filtragem dos cards
 <br>005 - Site: Seção Nossa História
