@@ -11,7 +11,7 @@ Inspirado pela comunidade da <a href="https://github.com/sspacecoding">Gi Bordig
 
 Busco esses primeiros objetivos pois se situam fora da minha zona de conforto.
 
-Link para anotações: 
+<a href"https://onyx-forger-3c9.notion.site/100DaysOfCode-da9698137137411bb9f7ca15403cb266?pvs=4">Anotações dia-a-dia</a>
 
 Eis o cronograma:
 
