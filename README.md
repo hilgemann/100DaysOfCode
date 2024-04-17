@@ -11,57 +11,59 @@ Inspirado pela comunidade da <a href="https://github.com/sspacecoding">Gi Bordig
 
 Busco esses primeiros objetivos pois se situam fora da minha zona de conforto.
 
+<a href="https://onyx-forger-3c9.notion.site/100DaysOfCode-da9698137137411bb9f7ca15403cb266?pvs=4">Anotações dia-a-dia</a>
+
 Eis o cronograma:
 
 <h1>🚩 Start</h1>
 
 <br>~~001 - Organizar o projeto e seu cronograma e esboçar o site~~
-<br>002 - Site: Estrutura básica(menu e seções) e carrossel 
-<br>003 - Site: Seção de cards
-<br>004 - Site: Filtragem dos cards
-<br>005 - Site: Seção Nossa História
-<br>006 - Site: Seção Integração Instagram
-<br>007 - Site: Seção Contato
+<br>~~002 - Site: Estrutura básica(menu e seções) e carrossel~~
+<br>~~003 - Site: Seção de cards~~
+<br>004 - Site: Seção de cards
+<br>005 - Site: Filtragem dos cards
+<br>006 - Site: Seção Nossa História
+<br>007 - Site: Seção Mídias Sociais
 <br><h1>🚩 7 Dias: Início da Transformação</h1>
-<br>008 - Site: Review, SEO
-<br>009 - Site: Hospedagem
+<br>008 - Site: Seção Contato
+<br>009 - Site: Mobile
 <br>010 - Leitura
-<br>011 - Curso React
-<br>012 - Curso React
-<br>013 - Curso React
-<br>014 - Curso React
-<br>015 - Curso React
+<br>011 - Site: Mobile
+<br>012 - Site: Review
+<br>013 - Site: Review
+<br>014 - Site: Review, SEO
+<br>015 - Site: Hospedagem
 <br>016 - Leitura
-<br>017 - Curso NodeJs + MongoDB
-<br>018 - Curso NodeJs + MongoDB
-<br>019 - Curso NodeJs + MongoDB
-<br>020 - Curso NodeJs + MongoDB
-<br>021 - Curso NodeJs + MongoDB
+<br>017 - Curso React
+<br>018 - Curso React
+<br>019 - Curso React
+<br>020 - Curso React
+<br>021 - Curso React
 <br><h1>🚩 21 Dias: Consolidação do Hábito</h1>
 <br>022 - Curso NodeJs + MongoDB
 <br>023 - Leitura
-<br>024 - Curso NodeJs + MongoGB
-<br>025 - Curso NodeJs + MongoGB
-<br>026 - Curso NodeJs
-<br>027 - Curso NodeJs
-<br>028 - Curso NodeJs
-<br>029 - Curso NodeJs
+<br>024 - Curso NodeJs + MongoDB
+<br>025 - Curso NodeJs + MongoDB
+<br>026 - Curso NodeJs + MongoDB
+<br>027 - Curso NodeJs + MongoDB
+<br>028 - Curso NodeJs + MongoDB
+<br>029 - Curso NodeJs + MongoDB
 <br>030 - Leitura
-<br>031 - Curso NodeJs
+<br>031 - Curso NodeJs + MongoDB
 <br>032 - Curso NodeJs
-<br>033 - Curso TypeScript
-<br>034 - Curso TypeScript
-<br>035 - Curso TypeScript
-<br>036 - Curso TypeScript
+<br>033 - Curso NodeJs
+<br>034 - Curso NodeJs
+<br>035 - Curso NodeJs
+<br>036 - Curso NodeJs
 <br>037 - Leitura
-<br>038 - Curso TypeScript
+<br>038 - Curso NodeJs
 <br>039 - Curso TypeScript
-<br>040 - Projeto
-<br>041 - Projeto
-<br>042 - Projeto
-<br>043 - Projeto
+<br>040 - Curso TypeScript
+<br>041 - Curso TypeScript
+<br>042 - Curso TypeScript
+<br>043 - Curso TypeScript
 <br>044 - Leitura
-<br>045 - Projeto
+<br>045 - Curso TypeScript
 <br>046 - Projeto
 <br>047 - Projeto
 <br>048 - Projeto
@@ -80,12 +82,12 @@ Eis o cronograma:
 <br>060 - Projeto
 <br>061 - Projeto
 <br>062 - Projeto
-<br>063
-<br>064
+<br>063 - Projeto
+<br>064 - Projeto
 <br>065 - Leitura
-<br>066
-<br>067
-<br>068
+<br>066 - Projeto
+<br>067 - Projeto
+<br>068 - Projeto
 <br>069
 <br>070
 <br>071
