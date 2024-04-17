@@ -1,0 +1,12 @@
+{
+    "001": {"nome": "Texano",           "tipo": "Hamburguer Salgado",       "imagem" : "1.png", "ingredientes": "Alface, tomate, hamburguer de acém, queijo cheddar e molho especial"},
+    "002": {"nome": "Alemão",           "tipo": "Hamburguer Salgado",       "imagem" : "2.png", "ingredientes": "Alface, tomate, rúcula, bacon, hamburguer de filé de porco, queijo suíço e molho da casa"},
+    "003": {"nome": "Nutella",          "tipo": "Hamburguer Doce",          "imagem" : "3.png", "ingredientes": "Nutella, chocolate branco e morango"},
+    "004": {"nome": "Vegetariano",      "tipo": "Hamburguer Vegetariano",   "imagem" : "4.png", "ingredientes": "Alface, tomate, cebola roxa, hamburguer de cogumelos, queijo feta e molho de iogurte"},
+    "005": {"nome": "Frango BBQ",       "tipo": "Hamburguer de Frango",     "imagem" : "5.png", "ingredientes": "Alface, tomate, cebola caramelizada, frango grelhado, queijo prato e molho barbecue"},
+    "006": {"nome": "Mediterrâneo",     "tipo": "Hamburguer Especial",      "imagem" : "6.png", "ingredientes": "Alface, tomate seco, queijo muçarela, hamburguer de cordeiro, molho de hortelã e pimentão vermelho assado"},
+    "007": {"nome": "Vegano",           "tipo": "Hamburguer Vegano",        "imagem" : "7.png", "ingredientes": "Alface, tomate, abacate, hamburguer de grão-de-bico, queijo vegano e maionese de tofu"},
+    "008": {"nome": "Cheese Lover",     "tipo": "Hamburguer de Queijo",     "imagem" : "8.png", "ingredientes": "Alface, tomate, queijo prato, queijo cheddar, queijo gorgonzola e molho de queijo"},
+    "009": {"nome": "Picanha Gourmet",  "tipo": "Hamburguer Gourmet",       "imagem" : "9.png", "ingredientes": "Alface, tomate, cebola caramelizada, picanha grelhada, queijo provolone e molho especial"},
+    "010": {"nome": "Salmão Defumado",  "tipo": "Hamburguer de Peixe",      "imagem" : "10.png", "ingredientes": "Alface, tomate, cream cheese, salmão defumado, cebola roxa e molho de mostarda e mel"}
+}

@@ -14,49 +14,92 @@
         <nav class="menu" id="menu">
             <span class="logo"><a href="#"><img src="../images/logo.png"></a></span>
             <ul class="navigation">
-                <li><a>Sabores</a></li>
-                <li><a>História</a></li>
-                <li><a>Redes Sociais</a></li>
-                <li><a>Contato</a></li>
+                <li><a href="#">Sabores</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
             <ul class="social-media">
-                <li><a>Insta</a></li>
-                <li><a>Face</a></li>
-                <li><a>Whats</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp fa-xl"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://www.assai.com.br/sites/default/files/shutterstock_1806472312.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="https://www.assai.com.br/sites/default/files/shutterstock_1806472312.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://www.evino.com.br/blog/wp-content/uploads/2022/08/hamburguer-artesanal-scaled.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://moinhoglobo.com.br/wp-content/uploads/2019/05/16-hamburguer.jpeg" class="d-block w-100" alt="...">
-                  </div>
+                <div class="carousel-item">
+                <img src="https://www.evino.com.br/blog/wp-content/uploads/2022/08/hamburguer-artesanal-scaled.jpg" class="d-block w-100" alt="...">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                <div class="carousel-item">
+                <img src="https://moinhoglobo.com.br/wp-content/uploads/2019/05/16-hamburguer.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </section>
-        <section>
-            
+        <section id="our-flavors">
+            <!-- <span> -->
+                <h1>Nossos Sabores</h1>
+                <div id="filter-div" data-mdb-input-init class="form-outline">
+                    <input type="text" name"flavors-filter" class="filter" placeholder="Digite alguma caraterística ou ingrediente..." onkeyup="" />
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                </div>
+                <div class="card-lists" id="card-lists">
+                    <div class="row">
+                        <div class="card">
+                            <img class="card-img-top" src="images/1.png" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-tile">Título 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/2.png" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-tile">Título 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/3.png" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-tile">Título 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/4.png" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-tile">Título 4</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/5.png" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-tile">Salmão Defumado</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </span> -->
         </section>
         <section>
 <br>
@@ -91,6 +134,7 @@ a
     <footer>
 
     </footer>
+    <script src="https://kit.fontawesome.com/769bee31c9.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
