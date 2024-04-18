@@ -20,13 +20,13 @@ Eis o cronograma:
 <br>~~001 - Organizar o projeto e seu cronograma e esboçar o site~~
 <br>~~002 - Site: Estrutura básica(menu e seções) e carrossel~~
 <br>~~003 - Site: Seção de cards~~
-<br>004 - Site: Seção de cards
-<br>005 - Site: Filtragem dos cards
-<br>006 - Site: Seção Nossa História
-<br>007 - Site: Seção Mídias Sociais
+<br>~~004 - Site: Refatoração do menu~~
+<br>005 - Site: Seção de cards
+<br>006 - Site: Filtragem dos cards
+<br>007 - Site: Seção Nossa História
 <br><h1>🚩 7 Dias: Início da Transformação</h1>
-<br>008 - Site: Seção Contato
-<br>009 - Site: Mobile
+<br>008 - Site: Seção Mídias Sociais
+<br>009 - Site: Seção Contato
 <br>010 - Leitura
 <br>011 - Site: Mobile
 <br>012 - Site: Review
