@@ -21,7 +21,7 @@ Eis o cronograma:
 <br>~~002 - Site: Estrutura básica(menu e seções) e carrossel~~
 <br>~~003 - Site: Seção de cards~~
 <br>~~004 - Site: Refatoração do menu~~
-<br>005 - Site: Seção de cards
+<br>~~005 - Site: Seção de cards~~
 <br>006 - Site: Filtragem dos cards
 <br>007 - Site: Seção Nossa História
 <br><h1>🚩 7 Dias: Início da Transformação</h1>

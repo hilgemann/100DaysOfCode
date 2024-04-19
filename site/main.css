@@ -113,6 +113,9 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: #3d3d3d;
+  color: #fff;
+  font-family: visby;
 }
 
 hr {
@@ -133,6 +136,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  font-family: Hazel;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -3802,6 +3806,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  align-items: center;
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
@@ -10911,7 +10916,7 @@ hr.divider-light {
   #mainNav {
     box-shadow: none;
     /* background-color: transparent; */
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.3);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -11013,4 +11018,57 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+.carousel-indicators button {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 100%;
+}
+#our-flavors span {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#filter-div {
+    width: 50%;
+}
+
+#filter-div input.filter{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgb(32, 32, 32);
+    font-size: 1rem;
+    padding: 12px 10px;
+    margin: 10px;
+    width: 100%;
+    color: #fff;
+    letter-spacing: .05rem;
+}
+
+#card-lists .row {
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 15rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(12, 16, 31, 0.4);
+    margin: 20px 40px;
+    padding: 0;
+    background-color: #616060;
+    color: #fff;
+}
+
+.card img {
+    border-radius: 20px 20px 0  0;
+    width: 100%;
+    height: 200px;
+}
+
+.card h5 {
+    font-size: 1rem;
 }
