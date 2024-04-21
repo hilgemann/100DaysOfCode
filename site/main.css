@@ -11048,8 +11048,9 @@ header.masthead h1, header.masthead .h1 {
     letter-spacing: .05rem;
 }
 
-#card-lists .row {
+#card-lists {
     justify-content: space-evenly;
+    max-height: 50rem;
 }
 
 .card {
