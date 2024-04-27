@@ -11019,21 +11019,19 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
 .carousel-indicators button {
     width: 10px!important;
     height: 10px!important;
     border-radius: 100%;
 }
+
 #our-flavors span {
     padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-#filter-div {
-    width: 50%;
 }
 
 #filter-div input.filter{
@@ -11048,9 +11046,14 @@ header.masthead h1, header.masthead .h1 {
     letter-spacing: .05rem;
 }
 
+#filter-div input.filter:focus {
+  border-color: #000000; /* Vermelho, por exemplo */
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25); /* Sombra vermelha */
+}
+
 #card-lists {
     justify-content: space-evenly;
-    max-height: 50rem;
+    height: 50rem;
 }
 
 .card {

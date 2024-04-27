@@ -34,34 +34,47 @@ window.addEventListener('DOMContentLoaded', event => {
               navbarToggler.click();
           }
       });
-  });
-
-  new SimpleLightbox({
-      elements: '#portfolio a.portfolio-box'
-  });
-
-  
+  }); 
 });
+
+function removeAccents(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
 
 $(document).ready(function() {
-  $.getJSON('sabores.json', function(data) {
-    var products = data;
-    var html = '';
-    console.log(products);
-    $.each(products, function(index, produto) {
-      html += '<div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center justify-content-start">';
-      html += '<div class="card">';
-      html += '<img src="images/' + produto.imagem + '" class="card-img-top" alt="' + produto.nome + '">';
-      html += '<div class="card-body">';
-      html += '<h5 class="card-title">' + produto.nome + '</h5>';
-      html += '<p class="card-text">' + produto.descricao + '</p>';
-      html += '</div></div></div>';
+    $.getJSON('sabores.json', function(data) {
+        var produtos = data;
+        
+        function atualizarCards(filtro) {
+            var html = '';
+            $('#card-lists').empty(); // Limpa os cards existentes
+            $.each(produtos, function(index, produto) {
+                // Verifica se o nome do produto contém o filtro digitado
+                if (
+                    removeAccents(produto.nome.toLowerCase()).includes(removeAccents(filtro.toLowerCase())) ||
+                    removeAccents(produto.tipo.toLowerCase()).includes(removeAccents(filtro.toLowerCase())) ||
+                    removeAccents(produto.descricao.toLowerCase()).includes(removeAccents(filtro.toLowerCase()))
+                ) {
+                    html += '<div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center justify-content-start">';
+                    html += '<div class="card">';
+                    html += '<img src="images/' + produto.imagem + '" class="card-img-top" alt="' + produto.nome + '">';
+                    html += '<div class="card-body">';
+                    html += '<h5 class="card-title">' + produto.nome + '</h5>';
+                    html += '<p class="card-text">' + produto.descricao + '</p>';
+                    html += '</div></div></div>';
+                }
+            });
+
+            $('#card-lists').html(html); // Atualiza os cards filtrados
+        }
+
+        // Atualiza os cards ao digitar no campo de input
+        $('#filter').on('input', function() {
+            var filtro = $(this).val();
+            atualizarCards(filtro);
+        });
+
+        // Mostra todos os cards ao carregar a página
+        atualizarCards('');
     });
-
-    $('#card-lists').html(html);
-  });
 });
-
-const flavorsHandle = function () {
-  
-}
