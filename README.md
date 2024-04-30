@@ -25,12 +25,12 @@ Eis o cronograma:
 <br>~~006 - Site: Carregar cards dinâmicamente~~
 <br>~~007 - Site: Filtragem dos cards~~
 <br><h1>🚩 7 Dias: Início da Transformação</h1>
-<br>008 - Site: Seção Nossa História
-<br>009 - Site: Seção Mídias Sociais
+<br>~~008 - Site: Seção Nossa História~~
+<br>~~009 - Site: Seção Mídias Sociais~~
 <br>010 - Leitura
 <br>011 - Site: Seção Contato
-<br>012 - Site: Mobile
-<br>013 - Site: Review
+<br>012 - Site: Footer
+<br>013 - Site: Review Mobile
 <br>014 - Site: Review
 <br>015 - Site: Review, SEO
 <br>016 - Leitura

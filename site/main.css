@@ -10906,7 +10906,7 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
-#social-medias {
+#social-medias-nav {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -11020,6 +11020,15 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
+#carousel {
+  margin-top: 125px;
+}
+@media (min-width: 992px) {
+  #carousel {
+    margin-top: 0px;
+  }
+}
+
 .carousel-indicators button {
     width: 10px!important;
     height: 10px!important;
@@ -11027,7 +11036,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 #our-flavors span {
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11053,7 +11062,7 @@ header.masthead h1, header.masthead .h1 {
 
 #card-lists {
     justify-content: space-evenly;
-    height: 50rem;
+    height: 51rem;
 }
 
 .card {
@@ -11075,4 +11084,25 @@ header.masthead h1, header.masthead .h1 {
 
 .card h5 {
     font-size: 1rem;
+}
+
+#peca-agora {
+  padding: 3rem 0;
+  /* background-image: url('images/background.png'); */
+}
+
+.peca-agora {
+  font-size: calc(1rem + 1vw);
+  font-family: Hazel;
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+@media (min-width: 1200px) {
+  .peca-agora {
+    font-size: 2rem;
+  }
+}
+
+#our-history p {
+  text-align: justify;
 }

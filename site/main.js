@@ -55,7 +55,7 @@ $(document).ready(function() {
                     removeAccents(produto.tipo.toLowerCase()).includes(removeAccents(filtro.toLowerCase())) ||
                     removeAccents(produto.descricao.toLowerCase()).includes(removeAccents(filtro.toLowerCase()))
                 ) {
-                    html += '<div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center justify-content-start">';
+                    html += '<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 d-flex flex-column align-items-center justify-content-start">';
                     html += '<div class="card">';
                     html += '<img src="images/' + produto.imagem + '" class="card-img-top" alt="' + produto.nome + '">';
                     html += '<div class="card-body">';
