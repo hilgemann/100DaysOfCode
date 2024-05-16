@@ -11,8 +11,6 @@ Inspirado pela comunidade da <a href="https://github.com/sspacecoding">Gi Bordig
 
 Busco esses primeiros objetivos pois se situam fora da minha zona de conforto.
 
-<a href="https://onyx-forger-3c9.notion.site/100DaysOfCode-da9698137137411bb9f7ca15403cb266?pvs=4">Anotações dia-a-dia</a>
-
 Eis o cronograma:
 
 <h1>🚩 Start</h1>
@@ -27,14 +25,14 @@ Eis o cronograma:
 <br><h1>🚩 7 Dias: Início da Transformação</h1>
 <br>~~008 - Site: Seção Nossa História~~
 <br>~~009 - Site: Seção Mídias Sociais~~
-<br>010 - Leitura
-<br>011 - Site: Seção Contato
-<br>012 - Site: Footer
-<br>013 - Site: Review Mobile
-<br>014 - Site: Review
-<br>015 - Site: Review, SEO
+<br>~~010 - Site: Seção Contato~~
+<br>011 - Site: Footer
+<br>012 - Site: Review Mobile
+<br>013 - Site: Review Form
+<br>014 - Site: Review, SEO
+<br>015 - Site: Hospedagem
 <br>016 - Leitura
-<br>017 - Site: Hospedagem
+<br>017 - Leitura
 <br>018 - Curso React
 <br>019 - Curso React
 <br>020 - Curso React
