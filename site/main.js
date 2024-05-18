@@ -77,4 +77,39 @@ $(document).ready(function() {
         // Mostra todos os cards ao carregar a página
         atualizarCards('');
     });
+    
+    
+    document.getElementById('submitButton').addEventListener('click', sendMail);
+    
+    function sendMail (e) {
+        e.preventDefault();
+        
+        const name_value    = $('#name').val();
+        const email_value   = $('#email').val();
+        const phone_value   = $('#phone').val();
+        const message_value = $('#message').val();
+        
+        if (name_value && email_value && phone_value && message_value)
+        {
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "freipastelaria@gmail.com",
+                Password : "725A9E1D88FE3FD40BE22CEBC08BE5BD485D",
+                To : 'freipastelaria@gmail.com',
+                From : "freipastelaria@gmail.com",
+                Subject : "Mensagem enviada pelo site",
+                Body : `
+                Nome: ${name_value} <br>
+                Email: ${email_value} <br>
+                Telefone: ${phone_value} <br><br>
+                Mensagem: <br>
+                ${message_value}`
+            }).then(
+                message => alert(message)
+            );
+        }
+        else {
+            alert('Preencha todos os campos!')
+        }
+    }
 });

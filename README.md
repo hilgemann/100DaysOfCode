@@ -26,21 +26,21 @@ Eis o cronograma:
 <br>~~008 - Site: Seção Nossa História~~
 <br>~~009 - Site: Seção Mídias Sociais~~
 <br>~~010 - Site: Seção Contato~~
-<br>011 - Site: Footer
-<br>012 - Site: Review Mobile
-<br>013 - Site: Review Form
-<br>014 - Site: Review, SEO
-<br>015 - Site: Hospedagem
-<br>016 - Leitura
+<br>~~011 - Site: Footer~~
+<br>~~012 - Site: Envio de email~~
+<br>013 - Site: Review Mobile
+<br>014 - Site: Review Form
+<br>015 - Site: Review, SEO
+<br>016 - Site: Hospedagem
 <br>017 - Leitura
-<br>018 - Curso React
+<br>018 - Leitura
 <br>019 - Curso React
 <br>020 - Curso React
 <br>021 - Curso React
 <br><h1>🚩 21 Dias: Consolidação do Hábito</h1>
 <br>022 - Curso React
 <br>023 - Leitura
-<br>024 - Curso NodeJs + MongoDB
+<br>024 - Curso React
 <br>025 - Curso NodeJs + MongoDB
 <br>026 - Curso NodeJs + MongoDB
 <br>027 - Curso NodeJs + MongoDB
@@ -49,21 +49,21 @@ Eis o cronograma:
 <br>030 - Leitura
 <br>031 - Curso NodeJs + MongoDB
 <br>032 - Curso NodeJs + MongoDB
-<br>033 - Curso NodeJs
+<br>033 - Curso NodeJs + MongoDB
 <br>034 - Curso NodeJs
 <br>035 - Curso NodeJs
 <br>036 - Curso NodeJs
 <br>037 - Leitura
 <br>038 - Curso NodeJs
 <br>039 - Curso NodeJs
-<br>040 - Curso TypeScript
+<br>040 - Curso NodeJs
 <br>041 - Curso TypeScript
 <br>042 - Curso TypeScript
 <br>043 - Curso TypeScript
 <br>044 - Leitura
 <br>045 - Curso TypeScript
 <br>046 - Curso TypeScript
-<br>047 - Projeto
+<br>047 - Curso TypeScript
 <br>048 - Projeto
 <br>049 - Projeto
 <br>050 - Projeto
@@ -87,7 +87,7 @@ Eis o cronograma:
 <br>067 - Projeto
 <br>068 - Projeto
 <br>069 - Projeto
-<br>070
+<br>070 - Projeto
 <br>071
 <br>072 - Leitura
 <br>073
