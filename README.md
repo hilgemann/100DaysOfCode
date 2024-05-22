@@ -28,48 +28,48 @@ Eis o cronograma:
 <br>~~010 - Site: Seção Contato~~
 <br>~~011 - Site: Footer~~
 <br>~~012 - Site: Envio de email~~
-<br>013 - Site: Review Mobile
-<br>014 - Site: Review Form
-<br>015 - Site: Review, SEO
-<br>016 - Site: Hospedagem
-<br>017 - Leitura
-<br>018 - Leitura
-<br>019 - Curso React
-<br>020 - Curso React
-<br>021 - Curso React
+<br>~~013 - Webscraping + Python: Começando~~
+<br>~~014 - Webscraping + Python: Lendo amazon~~
+<br>~~015 - Webscraping + Python: Lendo comparemania~~
+<br>~~016 - Webscraping + Python: Enviando dados via telegram~~
+<br>017 - Site: Review Mobile
+<br>018 - Site: Review Form
+<br>019 - Site: Review, SEO
+<br>020 - Site: Hospedagem
+<br>021 - Leitura
 <br><h1>🚩 21 Dias: Consolidação do Hábito</h1>
-<br>022 - Curso React
+<br>022 - Leitura
 <br>023 - Leitura
 <br>024 - Curso React
-<br>025 - Curso NodeJs + MongoDB
-<br>026 - Curso NodeJs + MongoDB
-<br>027 - Curso NodeJs + MongoDB
-<br>028 - Curso NodeJs + MongoDB
+<br>025 - Curso React
+<br>026 - Curso React
+<br>027 - Curso React
+<br>028 - Curso React
 <br>029 - Curso NodeJs + MongoDB
 <br>030 - Leitura
 <br>031 - Curso NodeJs + MongoDB
 <br>032 - Curso NodeJs + MongoDB
 <br>033 - Curso NodeJs + MongoDB
-<br>034 - Curso NodeJs
-<br>035 - Curso NodeJs
-<br>036 - Curso NodeJs
+<br>034 - Curso NodeJs + MongoDB
+<br>035 - Curso NodeJs + MongoDB
+<br>036 - Curso NodeJs + MongoDB
 <br>037 - Leitura
-<br>038 - Curso NodeJs
+<br>038 - Curso NodeJs + MongoDB
 <br>039 - Curso NodeJs
 <br>040 - Curso NodeJs
-<br>041 - Curso TypeScript
-<br>042 - Curso TypeScript
-<br>043 - Curso TypeScript
+<br>041 - Curso NodeJs
+<br>042 - Curso NodeJs
+<br>043 - Curso NodeJs
 <br>044 - Leitura
-<br>045 - Curso TypeScript
+<br>045 - Curso NodeJs
 <br>046 - Curso TypeScript
 <br>047 - Curso TypeScript
-<br>048 - Projeto
-<br>049 - Projeto
-<br>050 - Projeto
+<br>048 - Curso TypeScript
+<br>049 - Curso TypeScript
+<br>050 - Curso TypeScript
 <br><h1>🚩 50 Dias: Meio do Caminho e Ajustes</h1>
 <br>051 - Leitura
-<br>052 - Projeto
+<br>052 - Curso TypeScript
 <br>053 - Projeto
 <br>054 - Projeto
 <br>055 - Projeto
@@ -88,11 +88,11 @@ Eis o cronograma:
 <br>068 - Projeto
 <br>069 - Projeto
 <br>070 - Projeto
-<br>071
+<br>071 - Projeto
 <br>072 - Leitura
-<br>073
-<br>074
-<br>075
+<br>073 - Projeto
+<br>074 - Projeto
+<br>075 - Projeto
 <br><h1>🚩 75 Dias: Fortalecimento e Profundidade</h1>
 <br>076
 <br>077
