@@ -10853,8 +10853,13 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
+/* @media (min-width: 1200px) {
+  .page-section {
+    padding: 6rem 0;
+  }
+} */
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
@@ -10910,7 +10915,7 @@ hr.divider-light {
 #social-medias-nav {
     color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 @media (min-width: 992px) {
@@ -11162,8 +11167,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 footer a {
+  color: #ffffff;
   text-decoration: none;
 }
 footer a:hover {
   color: #ff3239;
+}
+@media (min-width: 1200px) {
+  footer #links {
+    text-align: left !important;
+  }
 }

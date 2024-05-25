@@ -79,37 +79,122 @@ $(document).ready(function() {
     });
     
     
-    document.getElementById('submitButton').addEventListener('click', sendMail);
+    // document.getElementById('submitButton').addEventListener('click', sendMail);
     
-    function sendMail (e) {
-        e.preventDefault();
+    // function sendMail (e) {
+    //     e.preventDefault();
         
-        const name_value    = $('#name').val();
-        const email_value   = $('#email').val();
-        const phone_value   = $('#phone').val();
-        const message_value = $('#message').val();
+    //     const name_value    = $('#name').val();
+    //     const email_value   = $('#email').val();
+    //     const phone_value   = $('#phone').val();
+    //     const message_value = $('#message').val();
         
-        if (name_value && email_value && phone_value && message_value)
-        {
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "freipastelaria@gmail.com",
-                Password : "725A9E1D88FE3FD40BE22CEBC08BE5BD485D",
-                To : 'freipastelaria@gmail.com',
-                From : "freipastelaria@gmail.com",
-                Subject : "Mensagem enviada pelo site",
-                Body : `
+    //     if (name_value && email_value && phone_value && message_value)
+    //     {
+    //         Email.send({
+    //             Host : "smtp.elasticemail.com",
+    //             Username : "freipastelaria@gmail.com",
+    //             Password : "725A9E1D88FE3FD40BE22CEBC08BE5BD485D",
+    //             To : 'freipastelaria@gmail.com',
+    //             From : "freipastelaria@gmail.com",
+    //             Subject : "Mensagem enviada pelo site",
+    //             Body : `
+    //             Nome: ${name_value} <br>
+    //             Email: ${email_value} <br>
+    //             Telefone: ${phone_value} <br><br>
+    //             Mensagem: <br>
+    //             ${message_value}`
+    //         }).then(
+    //             message => alert(message)
+    //         );
+    //     }
+    //     else {
+    //         alert('Preencha todos os campos!')
+    //     }
+    // }
+    document.getElementById('submitButton').addEventListener('click', sendMail);
+
+const inputs = document.querySelectorAll('#contactForm .form-control');
+inputs.forEach(input => {
+    input.addEventListener('focusout', function() {
+        validateInput(input);
+    });
+});
+
+function validateInput(input) {
+    const value = input.value.trim();
+    const feedback = input.nextElementSibling;
+
+    if (!value) {
+        feedback.classList.add('d-block');
+    } else {
+        if (input.type === 'email' && !validateEmail(value)) {
+            feedback.textContent = 'Este email não é válido.';
+            feedback.classList.add('d-block');
+        } else {
+            feedback.classList.remove('d-block');
+        }
+    }
+}
+
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+}
+
+function sendMail(e) {
+    e.preventDefault();
+
+    const name_value = document.getElementById('name').value.trim();
+    const email_value = document.getElementById('email').value.trim();
+    const phone_value = document.getElementById('phone').value.trim();
+    const message_value = document.getElementById('message').value.trim();
+
+    let isValid = true;
+
+    if (!name_value) {
+        isValid = false;
+        document.querySelector('#name + .invalid-feedback').classList.add('d-block');
+    }
+
+    if (!email_value || !validateEmail(email_value)) {
+        isValid = false;
+        const emailFeedback = document.querySelector('#email + .invalid-feedback[data-sb-feedback="email:required"]');
+        emailFeedback.textContent = !email_value ? 'Digite um email.' : 'Este email não é válido.';
+        emailFeedback.classList.add('d-block');
+    }
+
+    if (!phone_value || !validatePhone(phone_value)) {
+        isValid = false;
+        const phoneFeedback = document.querySelector('#phone + .invalid-feedback[data-sb-feedback="phone:required"]');
+        phoneFeedback.textContent = !phone_value ? 'Digite um telefone.' : 'Este telefone não é válido.';
+        phoneFeedback.classList.add('d-block');
+    }
+
+    if (!message_value) {
+        isValid = false;
+        document.querySelector('#message + .invalid-feedback').classList.add('d-block');
+    }
+
+    if (isValid) {
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "freipastelaria@gmail.com",
+            Password : "725A9E1D88FE3FD40BE22CEBC08BE5BD485D",
+            To : 'freipastelaria@gmail.com',
+            From : "freipastelaria@gmail.com",
+            Subject : "Mensagem enviada pelo site",
+            Body : `
                 Nome: ${name_value} <br>
                 Email: ${email_value} <br>
                 Telefone: ${phone_value} <br><br>
                 Mensagem: <br>
                 ${message_value}`
-            }).then(
-                message => alert(message)
-            );
-        }
-        else {
-            alert('Preencha todos os campos!')
-        }
+        }).then(
+            message => alert(message)
+        );
+    } else {
+        alert('Preencha todos os campos corretamente!')
     }
+}
 });

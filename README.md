@@ -32,9 +32,9 @@ Eis o cronograma:
 <br>~~014 - Webscraping + Python: Lendo amazon~~
 <br>~~015 - Webscraping + Python: Lendo comparemania~~
 <br>~~016 - Webscraping + Python: Enviando dados via telegram~~
-<br>017 - Site: Review Mobile
-<br>018 - Site: Review Form
-<br>019 - Site: Review, SEO
+<br>~~017 - Site: Review Mobile~~
+<br>~~018 - Site: Review Form
+<br>~~019 - Site: Review, SEO~~
 <br>020 - Site: Hospedagem
 <br>021 - Leitura
 <br><h1>🚩 21 Dias: Consolidação do Hábito</h1>
