@@ -35,11 +35,11 @@ Eis o cronograma:
 <br>~~017 - Site: Review Mobile~~
 <br>~~018 - Site: Review Form
 <br>~~019 - Site: Review, SEO~~
-<br>020 - Site: Hospedagem
-<br>021 - Leitura
+<br>~~020 - Leitura~~
+<br>~~021 - Leitura~~
 <br><h1>🚩 21 Dias: Consolidação do Hábito</h1>
 <br>022 - Leitura
-<br>023 - Leitura
+<br>023 - Site: Hospedagem
 <br>024 - Curso React
 <br>025 - Curso React
 <br>026 - Curso React
