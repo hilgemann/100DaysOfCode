@@ -47,7 +47,7 @@ Eis o cronograma:
 <br>~~028 - Leitura Entendendo Algoritmos Cap 7~~
 <br>~~029 - Leitura Entendendo Algoritmos Cap 8~~
 <br>~~030 - Leitura Entendendo Algoritmos Cap 9~~
-<br>031 - Leitura Entendendo Algoritmos Cap 9
+<br>~~031 - Leitura Entendendo Algoritmos Cap 9~~
 <br>032 - Leitura Entendendo Algoritmos Cap 10
 <br>033 - Leitura Entendendo Algoritmos Cap 11
 <br>034 - Site: Hospedagem
